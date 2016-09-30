@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "88c633f3e37fc0cf2b01771954954da3",
+    "content-hash": "3f0f19398d28997951d372493afc79e2",
+    "packages": [
+        {
+            "name": "julianxhokaxhiu/DotNotation",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://gist.github.com/a6098de64195f604f56a.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "time": "2014-08-05 10:50:38"
+        },
+        {
+            "name": "mikecao/flight",
+            "version": "v1.2.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikecao/flight.git",
+                "reference": "b30d5e5fa2de08c3e91c1165ee226fd83f29ba9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikecao/flight/zipball/b30d5e5fa2de08c3e91c1165ee226fd83f29ba9b",
+                "reference": "b30d5e5fa2de08c3e91c1165ee226fd83f29ba9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "flight/autoload.php",
+                    "flight/Flight.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Cao",
+                    "email": "mike@mikecao.com",
+                    "homepage": "http://www.mikecao.com/",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Flight is a fast, simple, extensible framework for PHP. Flight enables you to quickly and easily build RESTful web applications.",
+            "homepage": "http://flightphp.com",
+            "time": "2016-10-12 18:49:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "julianxhokaxhiu/dotnotation": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
